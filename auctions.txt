@@ -1,0 +1,57 @@
+[
+{
+"Id": "124101",
+"Name": "Aethril",
+"MinBuyout": 68421
+},
+{
+"Id": "124102",
+"Name": "Dreamleaf",
+"MinBuyout": 97499
+},
+{
+"Id": "124103",
+"Name": "Foxflower",
+"MinBuyout": 200399
+},
+{
+"Id": "124104",
+"Name": "Fjarnskaggl",
+"MinBuyout": 94549
+},
+{
+"Id": "124105",
+"Name": "Starlight Rose",
+"MinBuyout": 234996
+},
+{
+"Id": "124441",
+"Name": "Leylight Shard",
+"MinBuyout": 539000
+},
+{
+"Id": "123918",
+"Name": "Leystone Ore",
+"MinBuyout": 23232
+},
+{
+"Id": "124440",
+"Name": "Arkhana",
+"MinBuyout": 23232
+},
+{
+"Id": "123919",
+"Name": "Felslate",
+"MinBuyout": "23232"
+},
+{
+"Id": "124113",
+"Name": "Stonehide Leather",
+"MinBuyout": "23232"
+},
+{
+"Id": "124115",
+"Name": "Stormscale",
+"MinBuyout": "23232"
+}
+]

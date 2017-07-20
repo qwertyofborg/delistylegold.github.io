@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>gold maker</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="crafting.js"></script>
+    <script src="bloods.js"></script>
+    <script src="main.js"></script>
+</head>
+
+<body>
+    <fieldset>
+        <legend>User Data</legend>
+        <label for="tsmAPIKey">TSM API key: </label><input type="text" id="tsmAPIKey" placeholder="Insert TSM API key" class="input">
+
+        <select name="region" id="region" class="input">
+            <option value="US" class="input">US</option>
+            <option value="EU" class="input">EU</option>
+        </select>
+        <label for="realm">Realm: </label><input type="text" id="realm" placeholder="Insert realm name" class="input">
+        <button id="saveTSMKey">Save</button>
+    </fieldset>
+
+    <table id="bloodTable">
+        <thead>
+            <tr>
+                <th>Item Id</th>
+                <th>Item Name</th>
+                <th>Min Buyout/Item</th>
+                <th>Quantity per Blood</th>
+                <th>Profit per blood</th>
+            </tr>
+        </thead>
+        <tbody></tbody>
+    </table>
+    <div id="dataButtons">
+        <button id="getLocalData" onclick="getLocalData();">Get local data</button>
+        <button id="getData" onclick="getTSMData();">Get current data from TSM</button>
+    </div>
+</body>
+
+</html>
